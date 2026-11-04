@@ -17,21 +17,21 @@ function Footer() {
           {/* Social Icons */}
           <div className="mt-6 flex gap-3">
             <a
-              href="#"
+              href="#about"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-[#222] transition hover:bg-orange-500"
             >
               f
             </a>
 
             <a
-              href="#"
+              href="#about"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-[#222] transition hover:bg-orange-500"
             >
               i
             </a>
 
             <a
-              href="#"
+              href="#about"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-[#222] transition hover:bg-orange-500"
             >
               x
@@ -47,25 +47,25 @@ function Footer() {
 
           <ul className="space-y-3 text-gray-400">
             <li>
-              <a href="/" className="transition hover:text-orange-500">
+              <a href="#home" className="transition hover:text-orange-500">
                 Home
               </a>
             </li>
 
             <li>
-              <a href="/about" className="transition hover:text-orange-500">
+              <a href="#about" className="transition hover:text-orange-500">
                 About
               </a>
             </li>
 
             <li>
-              <a href="/menu" className="transition hover:text-orange-500">
+              <a href="#menu" className="transition hover:text-orange-500">
                 Menu
               </a>
             </li>
 
             <li>
-              <a href="/contact" className="transition hover:text-orange-500">
+              <a href="#contact" className="transition hover:text-orange-500">
                 Contact
               </a>
             </li>
@@ -123,11 +123,11 @@ function Footer() {
           </p>
 
           <div className="flex gap-5">
-            <a href="#" className="transition hover:text-orange-500">
+            <a href="#about" className="transition hover:text-orange-500">
               Privacy Policy
             </a>
 
-            <a href="#" className="transition hover:text-orange-500">
+            <a href="#about" className="transition hover:text-orange-500">
               Terms & Conditions
             </a>
           </div>
